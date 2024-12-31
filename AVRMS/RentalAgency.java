@@ -44,7 +44,7 @@ public class RentalAgency {
         // Error handling using the do while loop and the try and catch blocks
         do {
             try {
-                System.out.println("===== Vehicle Rental System =====");
+                System.out.println("***** Hii Welcome to my Vehicle Rental System *****");
                 System.out.println("1. Rent a Vehicle");
                 System.out.println("2. Return a Vehicle");
                 System.out.println("3. Exit");
@@ -112,7 +112,7 @@ public class RentalAgency {
                 }
             } catch (Exception $e) {
                 System.out.println("Error: Invalid input. Please enter a valid number.");
-                $scanner.nextLine(); // Clear the scanner buffer
+                $scanner.nextLine(); 
             }
         } while ($choice != 3);
 
